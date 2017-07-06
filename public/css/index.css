@@ -1,0 +1,232 @@
+body{
+  background-color:#eee;
+}
+nav{
+  background: #2196f3;
+}
+.hide-on-med-and-down a{
+  color: #fff;
+  display:inline-flex;
+}
+
+nav .brand-logo {
+  max-width:200px; 
+  /*! position: relative; */
+  /*! display:inline-grid */
+}
+.brand-logo img{
+  padding:5px;
+  width: 100%;
+}
+.slide-text{
+  color: #555;
+}
+.button-collapse i{
+  color: #fff;
+}
+.modal-overlay{height: 140%}
+.avatar img{
+  float: left;
+}
+.text_content{
+  float: left;
+  margin-left: 15px;
+}
+.text_content p{
+  margin: 0px;
+  margin-top:-10px;
+  padding: 0px;
+  display: block;
+}
+.user_text.phone{
+  margin-top:-10px;
+}
+.user-image{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 2px solid #fff;
+}
+nav{
+  box-shadow: 0px 2px 2px #ccc;
+}
+.secondary-content i{
+  margin: 0px;
+}
+.dropdown-content li > a, .dropdown-content li > span{
+  color: #2196f3;
+}span
+#sidenav-overlay{
+  z-index: 996;
+}
+nav .button-collapse{
+  z-index: 995;
+}
+.collection {
+  border: none;
+  overflow:visible;
+}
+#dropdown2{
+  position: relative;
+  right: 15px;
+  margin-right: 20px;
+}
+.collection .collection-item{
+  margin-bottom: 5px;
+  box-shadow:0px 1px 2px #ddd;
+}
+.collection .collection-item.avatar .circle{
+  width: 60px;
+  height: 60px;
+}
+.dropdown-content li > a, .dropdown-content li > span{
+  padding: 14px 8px;
+}
+.dropdown-content li > a > i{
+  margin: 0 5px 0 0 ;
+}
+.collection .collection-item.avatar{
+  padding-left: 85px;
+}
+.details .collection-item{
+  margin-bottom: 0px;
+  box-shadow: none;
+}
+.details .collection-item{
+  background-color: transparent
+}
+.details i{
+  color: #888;
+  font-size: 18pt;
+  padding-right: 15px;
+  
+}
+.details span{
+  position:relative;
+  top: -5px;
+  color: #888;
+  font-family: arial;
+}
+.secondary-content{
+  color: #bbb;
+}
+.modal.bottom-sheet{
+  top: auto;
+bottom: -100%;
+margin: 0;
+width: 100%;
+max-height: 90%;
+border-radius: 0;
+will-change: bottom, opacity;
+height: 80%;
+}
+.light_blue{
+  background-color:#2196f3;
+}
+.collapsible.popout>li {
+//  margin:0 0 ;
+}
+#modal1,
+#modal3{
+  overflow-y:scroll;
+  max-height: 85%;
+}
+.upload_img{
+  width: 50%;
+}
+.btn-floating i:hover{
+  background-color: #57b0f8;
+}
+.upload_btn{
+  margin-top: 55px;
+}
+.tap-target-content{
+  left: 25px !important;
+}
+div::-webkit-scrollbar {
+    width: 5px;
+}
+.collapsible-header img{
+  width: 60px;
+  height: 60px;
+}
+.avatar .circle{
+    overflow: hidden;
+    left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.collapsible-header{
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  box-shadow: 0px 1px 2px #ddd;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+collapsible.popout > li {
+  box-shadow: 0px 0px 0px  !important;
+}
+.collapsible-header .avatar{
+  min-height: 84px;
+    padding-left: 72px;
+    position: relative;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #888;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(100,100,100,0.4); 
+}
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #888;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(100,100,100,0.4); 
+}
+input:focus:not([type]):not([readonly]),
+input[type="text"]:focus:not([readonly]),
+input[type="password"]:focus:not([readonly]),
+input[type="email"]:focus:not([readonly]),
+input[type="url"]:focus:not([readonly]), 
+input[type="time"]:focus:not([readonly]),
+input[type="date"]:focus:not([readonly]), 
+input[type="datetime"]:focus:not([readonly]),
+input[type="datetime-local"]:focus:not([readonly]),
+input[type="tel"]:focus:not([readonly]),
+input[type="number"]:focus:not([readonly]), 
+input[type="search"]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #2196f3;
+    box-shadow: 0 1px 0 0 #2196f3;
+}
+input:focus:not([type]):not([readonly]) + label,
+input[type="text"]:focus:not([readonly]) + label,
+input[type="password"]:focus:not([readonly]) + label,
+input[type="email"]:focus:not([readonly]) + label,
+input[type="url"]:focus:not([readonly]) + label,
+input[type="time"]:focus:not([readonly]) + label,
+input[type="date"]:focus:not([readonly]) + label,
+input[type="datetime"]:focus:not([readonly]) + label, 
+input[type="datetime-local"]:focus:not([readonly]) + label,
+input[type="tel"]:focus:not([readonly]) + label,
+input[type="number"]:focus:not([readonly]) + label,
+input[type="search"]:focus:not([readonly]) + label, 
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #2196f3;
+}
+.input-field i{
+  color: #333;
+}
+.input-field .prefix.active {
+    color: #2196f3;
+}
